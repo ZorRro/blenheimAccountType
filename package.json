@@ -1,0 +1,32 @@
+{
+  "name": "blenheimaccounttype",
+  "version": "1.0.0",
+  "description": "A simple javascript package to check for an account type based on given criteria.",
+  "main": "src/account-checker.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "mocha || true",
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZorRro/blenheimAccountType.git"
+  },
+  "keywords": [
+    "blenheim",
+    "chalcot"
+  ],
+  "author": "Debadatta Meher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZorRro/blenheimAccountType/issues"
+  },
+  "homepage": "https://github.com/ZorRro/blenheimAccountType#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
+  }
+}
